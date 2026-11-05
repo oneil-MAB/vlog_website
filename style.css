@@ -1,0 +1,135 @@
+/* Basic CSS Design */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f2;
+    color: #333;
+}
+
+/* Header */
+
+header {
+    background-color: #28543a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c5e5b5;
+}
+
+/* Home Section */
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e2eddc;
+}
+
+.hero h1 {
+    color: #28543a;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+.hero img {
+    width: 80%;
+    max-width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Main Container */
+
+.container {
+    width: 85%;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.container h2 {
+    color: #28543a;
+}
+
+/* Form */
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    height: 120px;
+}
+
+/* Button */
+
+button {
+    background-color: #28543a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #193b27;
+}
+
+/* Footer */
+
+footer {
+    background-color: #28543a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+video {
+    width: 100%;
+    height: 600px;
+    display: block;
+    margin: 20px auto;  
+    border-radius: 10px;
+    }
