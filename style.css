@@ -1,5 +1,5 @@
 ```css
-/* Basic Colorful CSS Design */
+/* DARK NATURE THEME */
 
 * {
     box-sizing: border-box;
@@ -8,21 +8,21 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #fff8e7;
-    color: #333;
+    background-color: darkslategray;
+    color: beige;
 }
 
 /* Header */
 
 header {
-    background-color: #245c45;
+    background-color: darkgreen;
     color: white;
     padding: 25px;
     text-align: center;
 }
 
 header h1 {
-    color: #ffe28a;
+    color: wheat;
 }
 
 nav {
@@ -37,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffcf56;
+    color: lightgreen;
 }
 
 /* Home Section */
@@ -45,14 +45,15 @@ nav a:hover {
 .hero {
     text-align: center;
     padding: 50px 20px;
-    background-color: #d9f0df;
+    background-color: darkolivegreen;
 }
 
 .hero h1 {
-    color: #245c45;
+    color: palegreen;
 }
 
 .hero p {
+    color: white;
     max-width: 600px;
     margin: 15px auto;
     line-height: 1.6;
@@ -64,7 +65,7 @@ nav a:hover {
     height: 350px;
     object-fit: cover;
     border-radius: 15px;
-    border: 5px solid white;
+    border: 4px solid darkseagreen;
 }
 
 /* Main Container */
@@ -76,13 +77,13 @@ nav a:hover {
 }
 
 .container h2 {
-    color: #e07835;
+    color: lightgreen;
 }
 
 /* Gallery */
 
 .gallery {
-    background-color: #fff0cf;
+    background-color: darkgreen;
     padding: 20px;
     border-radius: 15px;
 }
@@ -92,26 +93,33 @@ nav a:hover {
     height: 350px;
     object-fit: cover;
     border-radius: 12px;
-    border: 4px solid white;
+    border: 3px solid darkseagreen;
     margin-bottom: 15px;
 }
 
 /* Form */
 
 form {
-    background-color: #e5f3e8;
+    background-color: darkolivegreen;
     padding: 25px;
     border-radius: 12px;
-    border: 2px solid #b5d9bd;
+    border: 1px solid darkseagreen;
 }
 
 input, textarea {
     width: 100%;
     padding: 12px;
     margin-bottom: 12px;
-    border: 1px solid #aaa;
+    border: 1px solid darkseagreen;
     border-radius: 7px;
     font-family: Arial, sans-serif;
+    background-color: darkslategray;
+    color: white;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: lightgray;
 }
 
 textarea {
@@ -121,7 +129,7 @@ textarea {
 /* Button */
 
 button {
-    background-color: #e07835;
+    background-color: seagreen;
     color: white;
     padding: 12px 25px;
     border: none;
@@ -130,7 +138,7 @@ button {
 }
 
 button:hover {
-    background-color: #bd5725;
+    background-color: forestgreen;
 }
 
 /* Video */
@@ -141,14 +149,14 @@ video {
     display: block;
     margin: 20px auto;
     border-radius: 12px;
-    border: 4px solid #b5d9bd;
+    border: 3px solid darkseagreen;
 }
 
 /* Footer */
 
 footer {
-    background-color: #245c45;
-    color: white;
+    background-color: darkgreen;
+    color: wheat;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
