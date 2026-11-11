@@ -1,3 +1,4 @@
+/* Basic CSS Design */
 
 * {
     box-sizing: border-box;
@@ -6,21 +7,17 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #F5F1E6;
-    color: #344E41;
+    background-color: #f4f7f2;
+    color: #333;
 }
 
 /* Header */
 
 header {
-    background-color: #1B4332;
-    color: #F5F1E6;
-    padding: 25px;
+    background-color: #28543a;
+    color: white;
+    padding: 20px;
     text-align: center;
-}
-
-header h1 {
-    color: #DAD7CD;
 }
 
 nav {
@@ -28,91 +25,69 @@ nav {
 }
 
 nav a {
-    color: #F5F1E6;
+    color: white;
     text-decoration: none;
     margin: 10px;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #A3B18A;
+    color: #c5e5b5;
 }
 
 /* Home Section */
 
 .hero {
     text-align: center;
-    padding: 50px 20px;
-    background-color: #DAD7CD;
+    padding: 40px 20px;
+    background-color: #e2eddc;
 }
 
 .hero h1 {
-    color: #1B4332;
+    color: #28543a;
 }
 
 .hero p {
-    color: #344E41;
     max-width: 600px;
     margin: 15px auto;
-    line-height: 1.6;
 }
 
 .hero img {
     width: 80%;
     max-width: 600px;
-    height: 350px;
+    height: 300px;
     object-fit: cover;
-    border-radius: 15px;
-    border: 5px solid #F5F1E6;
+    border-radius: 10px;
 }
 
 /* Main Container */
 
 .container {
     width: 85%;
-    max-width: 900px;
+    max-width: 800px;
     margin: 30px auto;
 }
 
 .container h2 {
-    color: #1B4332;
-}
-
-/* Gallery */
-
-.gallery {
-    background-color: #E9E5D8;
-    padding: 20px;
-    border-radius: 15px;
-}
-
-.gallery img {
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 12px;
-    border: 4px solid white;
-    margin-bottom: 15px;
+    color: #28543a;
 }
 
 /* Form */
 
 form {
-    background-color: #E9E5D8;
-    padding: 25px;
-    border-radius: 12px;
-    border: 2px solid #A3B18A;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
 }
 
 input, textarea {
     width: 100%;
     padding: 12px;
     margin-bottom: 12px;
-    border: 1px solid #A3B18A;
-    border-radius: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     font-family: Arial, sans-serif;
-    background-color: #F5F1E6;
-    color: #344E41;
 }
 
 textarea {
@@ -122,36 +97,39 @@ textarea {
 /* Button */
 
 button {
-    background-color: #52796F;
+    background-color: #28543a;
     color: white;
-    padding: 12px 25px;
+    padding: 12px 20px;
     border: none;
-    border-radius: 7px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #1B4332;
-}
-
-/* Video */
-
-video {
-    width: 100%;
-    height: 400px;
-    display: block;
-    margin: 20px auto;
-    border-radius: 12px;
-    border: 4px solid #A3B18A;
+    background-color: #193b27;
 }
 
 /* Footer */
 
 footer {
-    background-color: #1B4332;
-    color: #DAD7CD;
+    background-color: #28543a;
+    color: white;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     margin-top: 40px;
 }
-```
+
+.gallery img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+video {
+    width: 100%;
+    height: 600px;
+    display: block;
+    margin: 20px auto;  
+    border-radius: 10px;
+    }
