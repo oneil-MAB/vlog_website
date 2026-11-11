@@ -15,7 +15,7 @@ body {
 /* Header */
 
 header {
-    background-color: darkgreen;
+    background-color: white-orange;
     color: white;
     padding: 25px;
     text-align: center;
@@ -83,7 +83,7 @@ nav a:hover {
 /* Gallery */
 
 .gallery {
-    background-color: darkgreen;
+    background-color: white-orange;
     padding: 20px;
     border-radius: 15px;
 }
