@@ -1,14 +1,13 @@
-// Get the saved posts
+
 function getPosts() {
     return JSON.parse(localStorage.getItem("posts")) || [];
 }
 
-// Save posts
+
 function savePosts(posts) {
     localStorage.setItem("posts", JSON.stringify(posts));
 }
 
-// Display posts
 function displayPosts() {
     const posts = getPosts();
     const postsContainer = document.getElementById("posts");
@@ -54,7 +53,6 @@ function displayPosts() {
     });
 }
 
-// Create a new post
 const postForm = document.getElementById("postForm");
 
 if (postForm) {
@@ -87,7 +85,6 @@ if (postForm) {
     displayPosts();
 }
 
-// Add a comment
 function addComment(index) {
 
     const commentInput = document.getElementById(
@@ -109,8 +106,6 @@ function addComment(index) {
 
     displayPosts();
 }
-
-// Get a random quote from public API
 
 async function getQuote() {
 
