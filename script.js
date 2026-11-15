@@ -127,8 +127,6 @@ async function getQuote() {
     }
 }
 
-// PUBLIC API - RANDOM QUOTES
-
 async function getQuote() {
 
     const quote = document.getElementById("quote");
@@ -166,5 +164,4 @@ async function getQuote() {
     }
 }
 
-// Load quote when page opens
 getQuote();
